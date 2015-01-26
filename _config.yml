@@ -1,0 +1,9 @@
+name: scottandmaddie.com
+description: Website for our wedding
+url: http://scottandmaddie.com
+markdown: redcarpet
+paginate: 5
+highlighter: pygments
+title: mytitle
+
+permalink: /:title	

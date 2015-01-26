@@ -1,0 +1,22 @@
+---
+layout: default
+title: Wedding Updates
+---
+
+{% for post in site.posts %}
+    <article class="module color-3">
+            <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+            <span class="category">{{ post.categories }}</span>
+            <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+    </article>
+{% endfor %}
+
+<div class="module pagination color-3">
+    {% if site.previous_page %}
+        <a href="{{ site.previous_page_path }}" class="previous">Previous</a>
+    {% endif %}
+
+    {% if site.next_page %}
+        <a href="{{ site.next_page_path }}" class="next">Next</a>
+    {% endif %}
+</div>
