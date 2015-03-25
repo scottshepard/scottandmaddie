@@ -11,4 +11,4 @@ on the East Coast but I was bored so I ordered our invitations!
 
 We will be dropping them in the mail on April 1st.
 
-![Imgur](http://i.imgur.com/CiQWiqH.jpg)
+<img src="http://i.imgur.com/xHL6vXS.jpg" height = 640, width = 640>  
